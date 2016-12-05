@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KLFourierTransformView_Example' do
+  pod 'KLFourierTransformView', :path => '../'
+
+  target 'KLFourierTransformView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
